@@ -1,0 +1,36 @@
+/*
+    Exercício 01 - Marking up a letter (MDN - https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter)
+
+    SCC0219 - Introdução a desenvolvimento Web
+    Prof.: Maria da Graça Pimentel
+    Monitores:
+        Gesiel Rios Lopes
+        Carolina Arenas Okawa
+
+    Victor da Silva Mariano Pereira     8602444
+*/
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.sender-column {
+text-align: right;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+p,ul,ol,dl,address {
+    font-size: 1.1em;
+}
+
+p, li, dd, dt, address {
+    line-height: 1.5;
+}
